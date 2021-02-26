@@ -18,7 +18,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.build.outputEncoding>UTF-8</project.build.outputEncoding>
-		<maven.compiler.release>...</maven.compiler.release>
+		<maven.compiler.release>11</maven.compiler.release>
 		<mainClass>geolocator.GeoLocator</mainClass>
 		<jackson-databind.version>2.12.1</jackson-databind.version>
 	</properties>
@@ -163,7 +163,7 @@
 	<distributionManagement>
 		<site>
 			<id>shrek</id>
-			<url>scp://@shrek.unideb.hu:2222/home/jeszy/public_html/${project.artifactId}</url>
+			<url>scp://bayramc@shrek.unideb.hu:2222/home/bayramc/public_html/${ip-geolocator}</url>
 		</site>
 	</distributionManagement>
 </project>
